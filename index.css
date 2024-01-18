@@ -1,12 +1,55 @@
-.name {
-    width: 50px;
-    height: 50px;
+html{
+    background-color: #abbaba;
+}
+.nameandphoto{
+text-align: center;
 }
 .myname{
-    font-size: 30px;
+text-align: center;
+font-size: 40px;
 }
 .myphoto{
-    width: 50px;
-    height: 50px;
-    border-radius: 2px, solid, black;
+width: 120px;
+height: 120px;
+border: 2px solid black;
+border-radius: 50%;
+}
+
+a{
+color: black;
+}
+.title{
+    text-transform: uppercase;
+    list-style: none;
+}
+.container1{
+    display: inline-flex;
+    gap: 10px;
+    width: 100%;
+}
+.container2{
+    display: inline-flex;
+    gap: 10px;
+    width: 100%;
+}
+.container3{
+    display: inline-flex;
+    gap: 10px;
+    width: 100%;
+}
+span{
+    text-align: center;
+    color: black
+}
+
+footer {
+text-align: center;
+padding: 5px;
+background-color: #abbaba;
+color: #000;
+text-transform: uppercase;
+}
+h4{
+    text-align: left;
+    
 }
