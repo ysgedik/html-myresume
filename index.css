@@ -1,16 +1,20 @@
 html{
     background-color: #abbaba;
+
+}
+body{
+        font-size: 20px;
 }
 .nameandphoto{
 text-align: center;
 }
 .myname{
 text-align: center;
-font-size: 40px;
+font-size: 3rem;
 }
 .myphoto{
-width: 120px;
-height: 120px;
+width: 150px;
+height: 150px;
 border: 2px solid black;
 border-radius: 50%;
 }
@@ -22,26 +26,33 @@ color: black;
     text-transform: uppercase;
     list-style: none;
 }
+/* Containerlar */
 .container1{
     display: inline-flex;
-    gap: 10px;
+    gap: 1rem;
     width: 100%;
+    align-items: stretch;
+    justify-content: space-between;
 }
 .container2{
     display: inline-flex;
-    gap: 10px;
+    gap: 1rem;
     width: 100%;
+    align-items: stretch;
+    justify-content: space-around;
 }
 .container3{
     display: inline-flex;
-    gap: 10px;
+    gap: 1rem;
     width: 100%;
+    align-items: stretch;
+    justify-content: space-between;
 }
 span{
     text-align: center;
     color: black
 }
-
+/* Footer */
 footer {
 text-align: center;
 padding: 5px;
@@ -53,3 +64,76 @@ h4{
     text-align: left;
     
 }
+/* media kısmı */
+@media (min-width: 319px) and (max-width: 480px) {
+    body {
+        font-size: 0.5rem;
+    }
+    .container1{
+        display: flexbox;
+        gap: 0.5rem;
+    }
+    .container2{
+        display: flexbox;
+        gap: 0.5rem;
+    }
+    .container3{
+        display: flexbox;
+        gap: 0.5rem;
+    }
+
+  }
+
+@media (min-width: 481px) and (max-width: 1200px) {
+   body {
+        font-size: 0.8rem;
+    }
+    .container1{
+        display: flexbox;
+        gap: 0.8rem;
+    }
+    .container2{
+        display: flexbox;
+        gap: 0.8rem;
+    }
+    .container3{
+        display: flexbox;
+        gap: 0.8rem;
+    }
+  }
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+    body {
+        font-size: 1rem;
+    }
+    .container1{
+        display: flexbox;
+        gap: 1rem;
+    }
+    .container2{
+        display: flexbox;
+        gap: 1rem;
+    }
+    .container3{
+        display: flexbox;
+        gap: 1rem;
+    }
+  }
+
+@media (min-width: 1601px) {
+    body {
+        font-size: 1.5rem;
+    }
+    .container1{
+        display: flexbox;
+        gap: 2rem;
+    }
+    .container2{
+        display: flexbox;
+        gap: 2rem;
+    }
+    .container3{
+        display: flexbox;
+        gap: 2rem;
+    }
+  }
