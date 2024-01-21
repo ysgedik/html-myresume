@@ -1,9 +1,13 @@
 html{
-    background-color: #abbaba;
+    background-color: #D2E0FB;
 
 }
 body{
         font-size: 20px;
+}
+header{
+    background-color: #8EACCD;
+    text-transform: uppercase;
 }
 .nameandphoto{
 text-align: center;
@@ -25,6 +29,8 @@ color: black;
 .title{
     text-transform: uppercase;
     list-style: none;
+    background-color: #8EACCD;
+    width: 100%;
 }
 /* Containerlar */
 .container1{
@@ -52,18 +58,23 @@ span{
     text-align: center;
     color: black
 }
-/* Footer */
-footer {
-text-align: center;
-padding: 5px;
-background-color: #abbaba;
-color: #000;
-text-transform: uppercase;
-}
 h4{
     text-align: left;
     
 }
+/* Footer */
+footer {
+text-align: center;
+padding: 5px;
+background-color: #D7E5CA;
+color: #000;
+text-transform: uppercase;
+font-weight:bold; 
+}
+footer > p {
+ background-color: #D7E5CA;   
+}
+
 /* media kısmı */
 @media (min-width: 319px) and (max-width: 480px) {
     body {
